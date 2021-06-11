@@ -1,0 +1,19 @@
+초중급에서는 DQL을 다루었다.
+  SELECT
+  FROM
+    JOIN
+  WHERE
+  GROUP BY
+  HAVING
+  ORDER BY
+  LIMIT
+
+
+고급반에서 아래의 토픽을 다룬다.
+
+DML (데이터를 삽입, 삭제, 업데이트)
+SUBQUERY => 쿼리를 테이블 처럼 다루는 방법론
+윈도우 함수 => 복잡한 연산에 필요한 함수들
+mysql 함수
+정규표현식
+ERD (entity relationship diagram) => 테이블간 관계를 모식화
