@@ -1,0 +1,24 @@
+ERD (entity relationship diagram)
+- 개체간의 관계를 보기 위한 도표
+
+- 3개의 구성요소를 가진다.
+1. entity (개체, 테이블)
+2. attribute (각 테이블의 컬럼) 
+    => 이름 + 데이터 타입
+3. relationship (관계)
+    => primary key : 주 식별자, 테이블의 unique key
+    => foreign key : 외래키, 테이블 연결을 위한 키
+
+
+pk와 fk의 관계를 통해 entity사이의 관계를 정의
+pk와 fk의 화살표의 종류가 대응되는 데이터의 개수또한 나타낸다.
+
+one to one    => 하나의 데이터가 다른 하나의 데이터에 대응
+one to many   => 하나의 데이터가 복수의 데이터에 대응
+many to many  => 여러개의 레코드가 여러개의 레코드와 대응된다.
+
+
+|| : one
+craw foot : many
+
+한개의 주문 레코드가여러개의 주문상세 레코드와 대응된다. (one to many)
